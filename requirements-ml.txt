@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+
+
+ultralytics==8.3.217
+torch==2.9.0
+torchvision==0.24.0
+
+opencv-python==4.12.0.88
+pytesseract==0.3.13
+
+numpy==2.2.6
+scipy==1.16.2
+Pillow==12.0.0
+requests==2.32.5
+
