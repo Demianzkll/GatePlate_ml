@@ -13,6 +13,10 @@ WORKDIR /app
 COPY requirements-ml.txt .
 RUN pip install --no-cache-dir -r requirements-ml.txt
 
+# install CPU PyTorch wheels (recommended for servers)
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+
 # Copy application code
 COPY . .
 
